@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <parameter name="Models" value="IOS13 , IOS14"/>
+    <test name="test">
+        <classes>
+            <class name="org.example.Test3"></class>
+        </classes>
+    </test>
+</suite>

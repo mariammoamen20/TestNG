@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Todo Application">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="2.1"/>
+    <test name="greeting">
+    <classes>
+        <class name="org.example.Helper"></class>
+        <class name="org.example.NameTest" />
+        <class name="org.example.PasswordTest" />
+        <class name="org.example.ParameterTest"/>
+    </classes>
+</test>
+</suite>
